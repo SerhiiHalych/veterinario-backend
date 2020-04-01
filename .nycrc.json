@@ -1,0 +1,6 @@
+{
+  "extension": [".ts", ".tsx"],
+  "exclude": ["api/app.ts", "**/coverage/**", "docs", "webpack.config.js"],
+  "all": true,
+  "reporter": ["lcov", "text-summary"]
+}

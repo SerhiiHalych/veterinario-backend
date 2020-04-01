@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "strictPropertyInitialization": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "es2019",
+      "esnext.asynciterable",
+      "esnext.array"
+    ]
+  }
+}
