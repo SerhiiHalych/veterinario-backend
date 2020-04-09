@@ -1,0 +1,32 @@
+{
+  "name": "lifeworks-backend",
+  "version": "0.0.7",
+  "description": "The back-end part of LifeWorks",
+  "main": "app.js",
+  "repository": "https://bitbucket.org/lifeworks-software/lifeworks-backend.git",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "@types/config": "^0.0.34",
+    "copy-webpack-plugin": "^5.1.1",
+    "prettier": "^1.16.4",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.3.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-no-focused-test": "^0.5.0",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.4",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "reflect-metadata": "^0.1.13",
+    "request-promise": "^4.2.4",
+    "tslint": "^5.13.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
